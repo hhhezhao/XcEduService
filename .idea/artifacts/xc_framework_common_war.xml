@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="xc-framework-common:war">
+    <output-path>$PROJECT_DIR$/xc-framework-common/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>xc-framework-common</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="xc-framework-common.war">
+      <element id="artifact" artifact-name="xc-framework-common:war exploded" />
+    </root>
+  </artifact>
+</component>

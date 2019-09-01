@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="xc-service-manage-cms:war">
+    <output-path>$PROJECT_DIR$/xc-service-manage-cms/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>xc-service-manage-cms</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="xc-service-manage-cms.war">
+      <element id="artifact" artifact-name="xc-service-manage-cms:war exploded" />
+    </root>
+  </artifact>
+</component>
